@@ -1,0 +1,22 @@
+{
+  "name": "frieren-eternal-journey",
+  "version": "1.0.0",
+  "description": "Frieren-inspired WhatsApp RPG bot",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.5.0",
+    "mongoose": "^8.9.0",
+    "dotenv": "^16.4.7",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
